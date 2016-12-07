@@ -21,8 +21,8 @@
             <h2>Before You Begin</h2>
             <p>There are two files:</p>
             <ul>
-                <li><code>index.html</code> is the content. DO NOT EDIT ANY OF IT.</li>
-                <li><code>style.css</code> is the style. This is where you will be doing your coding.</li>
+                <li><strong><code>index.html</code></strong> is the content. DO NOT EDIT ANY OF IT.</li>
+                <li><strong><code>style.css</code></strong> is the style. This is where you will be doing your coding.</li>
             </ul>
             <p>Follow the directions on this HTML page below.</p>
         </div>
@@ -30,22 +30,22 @@
 
         <div class="container">
             <h2>The Wrapper</h2>
-            <p>You'll notice that <code>&lt;div id="wrapper"&gt;</code> has already been styled for you. Don't worry too much about the declarations inside that rule, but feel free to turn each declaration off/on to see what they do.</p>
+            <p>You'll notice that <code><strong>&lt;div id="wrapper"&gt;</strong></code> has already been styled for you. Don't worry too much about the declarations inside that rule, but feel free to turn each declaration off/on to see what they do.</p>
         </div>
         <hr>
 
         <div class="container">
             <h2>The Horizontal Rules</h2>
-            <p>Let's start simple. Just copy and paste the code snippet below to style all of the <code>&lt;hr&gt;</code> elements.</p>
+            <p>Let's start simple. Just copy and paste the code snippet below to style all of the <strong><code>&lt;hr&gt;</code></strong> elements.</p>
             <div class="snippet">
-                <code>
+                <code><strong>
                 hr {<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;border: 0;<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;height: 1px;<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;background: #333;<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;background-image: linear-gradient(to right, #ccc, #333, #ccc);<br>
                 }
-                </code>
+                </strong></code>
             </div>
             <p>Subtle, but awesome. Right?</p>
         </div>
@@ -53,19 +53,19 @@
 
         <div class="container">
             <h2>The Headings</h2>
-            <p>Select all <code>&lt;h1&gt;</code> elements.</p>
+            <p>Select all <code><strong>&lt;h1&gt;</strong></code> elements.</p>
             <ul>
-                <li>Set the <code>font-size</code> to <code>72px</code></li>
+                <li>Set the <code><strong>font-size</strong></code> to <code><strong>72px</strong></code></li>
             </ul>
-            <p>In a new rule, select all <code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code> elements at the same time.</p>
+            <p>In a new rule, select all <code><strong>&lt;h1&gt;</strong></code> and <code><strong>&lt;h2&gt;</strong></code> elements at the same time.</p>
             <ul>
-                <li>Set the <code>font-family</code> to <code>"Oswald", "Helvetica Neue"</code></li>
+                <li>Set the <code><strong>font-family</strong></code> to <code><strong>"Oswald", "Helvetica Neue"</strong></code></li>
                 <ul>
-                    <li>This means that the font will be <code>Oswald</code> (an imported font, more on that later), and <code>Helvetica Neue</code> is the closest backup in case <code>Oswald</code> doesn't load.</li>
-                    <li>Fonts only need to be surrounded with quotes if they are multiple words, such as <code>"Times New Roman"</code>, but it's a good habit to surround all fonts with quotes, just in case.</li>
+                    <li>This means that the font will be <code><strong>Oswald</strong></code> (an imported font, more on that later), and <code><strong>Helvetica Neue</strong></code> is the closest backup in case <code><strong>Oswald</strong></code> doesn't load.</li>
+                    <li>Fonts only need to be surrounded with quotes if they are multiple words, such as <code><strong>"Times New Roman"</strong></code>, but it's a good habit to surround all fonts with quotes, just in case.</li>
                 </ul>
-                <li>Set the <code>text-align</code> property to <code>center</code></li>
-                <li>Set the <code>color</code> to <code>#2884C3</code></li>
+                <li>Set the <code><strong>text-align</strong></code> property to <code><strong>center</strong></code></li>
+                <li>Set the <code><strong>color</strong></code> to <code><strong>#2884C3</strong></code></li>
             </ul>
             <p>Starting to look familiar?</p>
         </div>
@@ -73,23 +73,23 @@
 
         <div class="container">
             <h2>Text</h2>
-            <p>Remember that everything in <code>&lt;HTML&gt;</code> is either in the <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code></p>
-            <p>We can select <strong>all</strong> text by selecting the <code>&lt;body&gt;</code></p>
+            <p>Remember that everything in <code><strong>&lt;HTML&gt;</strong></code> is either in the <code><strong>&lt;head&gt;</strong></code> or <code><strong>&lt;body&gt;</strong></code></p>
+            <p>We can select <strong>all</strong> text by selecting the <code><strong>&lt;body&gt;</strong></code></p>
             <ul>
-                <li>and setting the <code>font-size</code> to <code>1.5em</code></li>
+                <li>and setting the <code><strong>font-size</strong></code> to <code><strong>1.5em</strong></code></li>
                 <ul>
-                    <li><code>em</code> means <strong>emphasis</strong> and simply multiplies the current font size by your # (in this case, 1.5).</li>
+                    <li><code><strong>em</strong></code> means <strong>emphasis</strong> and simply multiplies the current font size by your # (in this case, 1.5).</li>
                 </ul>
             </ul>
-            <p>This declaration just applied to everything in the <code>body</code> that has a <code>font-size</code> (namely, text - such as <code>p</code>, <code>li</code>, <code>h2</code>, etc.)</p>
-            <p>But why aren't <code>&lt;h1&gt;</code> elements affected? Remember that rules <strong>cascade</strong>, meaning that <code>h1</code> is more specific than <code>body</code>, so <code>h1</code> declarations overrule any <code>body</code> declarations.</p>
-            <p>I'm not a big fan of the font, so let's change the font family, too. Similar to the <code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code> elements, one has already been imported for you.</p>
+            <p>This declaration just applied to everything in the <code><strong>body</strong></code> that has a <code><strong>font-size</strong></code> (namely, text - such as <code><strong>p</strong></code>, <code><strong>li</strong></code>, <code><strong>h2</strong></code>, etc.)</p>
+            <p>But why aren't <code><strong>&lt;h1&gt;</strong></code> elements affected? Remember that rules <strong>cascade</strong>, meaning that <code><strong>h1</strong></code> is more specific than <code><strong>body</strong></code>, so <code><strong>h1</strong></code> declarations overrule any <code><strong>body</strong></code> declarations.</p>
+            <p>I'm not a big fan of the font, so let's change the font family, too. Similar to the <code><strong>&lt;h1&gt;</strong></code> and <code><strong>&lt;h2&gt;</strong></code> elements, one has already been imported for you.</p>
             <ul>
-                <li>set the <code>font-family</code> to <code>"Crimson Text", "Arial"</code></li>
+                <li>set the <code><strong>font-family</strong></code> to <code><strong>"Crimson Text", "Arial"</strong></code></li>
             </ul>
             <p>But now the text seems to squished together, right? We can space out each line by</p>
             <ul>
-                <li>setting the <code>line-height</code> to <code>1.5</code></li>
+                <li>setting the <code><strong>line-height</strong></code> to <code><strong>1.5</strong></code></li>
             </ul>
 
         </div>
@@ -97,19 +97,19 @@
 
         <div class="container">
             <h2>Code</h2>
-            <p>Select all <code>&lt;code&gt;</code> elements.</p>
+            <p>Select all <code><strong>&lt;code&gt;</strong></code> elements.</p>
             <ul>
-                <li>Set the <code>color</code> to <code>#CE234C</code></li>
+                <li>Set the <code><strong>color</strong></code> to <code><strong>#CE234C</strong></code></li>
             </ul>
             <p>Did you know you can use words, too? Try it!</p>
             <ul>
-                <li>Set the <code>background-color</code> to <code>lightgray</code></li>
+                <li>Set the <code><strong>background-color</strong></code> to <code><strong>lightgray</strong></code></li>
             </ul>
-            <p>By doing this, hopefully you noticed that everything looks good, except for that code snippet above! How can we make the entire background of that code gray? We'd have to put it in a container (think: <code>div</code>) and make the entire
-                container have a gray background. The HTML part has been done for you. And in case we want to do a code snippet again, the div has <code>class="snippet"</code></p>
+            <p>By doing this, hopefully you noticed that everything looks good, except for that code snippet above! How can we make the entire background of that code gray? We'd have to put it in a container (think: <code><strong>div</strong></code>) and make the entire
+                container have a gray background. The HTML part has been done for you. And in case we want to do a code snippet again, the div has <code><strong>class="snippet"</strong></code></p>
             <p>So select all elements with that class.</p>
             <ul>
-                <li>Set the <code>background</code> to <code>lightgray</code></li>
+                <li>Set the <code><strong>background</strong></code> to <code><strong>lightgray</strong></code></li>
             </ul>
         </div>
         <hr>
@@ -122,7 +122,7 @@
                 <li>You'll need to select that element by its ID.</li>
                 <li>You'll also need to figure out how to make text <a href="http://www.tutorialrepublic.com/css-tutorial/css-fonts.php" target="_blank">italicized</a>.</li>
             </ul>
-            <p id="font-practice">Hi, my name is <strong>Arial</strong>. I'm <strong>16</strong> and my favorite color is <strong>green</strong>.</p>
+            <i><p id="font-practice">Hi, my name is <strong>Arial</strong>. I'm <strong>16</strong> and my favorite color is <strong>green</strong>.</p></i>
             <img src="font-practice.png">
         </div>
         <hr>
@@ -138,7 +138,7 @@
                 <li>black when it's already been clicked on</li>
             </ul>
             <p>Here is a link to practice on.  It doesn't go anywhere when you click on it.</p>
-            <a href="">Nanny nanny boo-boo!</a>
+            <a href="https://css-tricks.com/remember-selectors-with-love-and-hate/">Nanny nanny boo-boo!</a>
             <p>If it didn't work properly, it's because those rules must go in a specific order. Here is a <a href="https://css-tricks.com/remember-selectors-with-love-and-hate/" target="_blank">trick</a> to remember that order.</p>
         </div>
         <hr>
@@ -160,13 +160,12 @@
             </ul>
             <p>You have permission to write any HTML below that you'd like to practice on:</p>
             <!--Write any of your own HTML below-->
-
-
+            <li><a href="https://www.youtube.com/watch?v=0afZj1G0BIE" target="_blank">CSS Tutoring on YouTube</a></li>
+            <li><a href="https://css-tricks.com/remember-selectors-with-love-and-hate/" target="_blank">CSS trick to ALWAYS remember</a></li>></a>
 
 
 
             <!--Write any of your own HTML above-->
-        </div>
         <hr>
 
     </div>

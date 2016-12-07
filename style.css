@@ -10,6 +10,47 @@
     left: 0;
     right: 0;
 }
-
+hr {
+     border: 0;
+     height: 1px;
+     background: #333;
+     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+ }
+hr1 {
+     border: 0;
+     height: 1px;
+     background: #333;
+     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+hr1 + hr2 {
+     border: 0;
+     height: 1px;
+     background: #333;
+     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+     text-align: center;
+     font-family: "Oswald", "Helvetica Neue";
+     color: #2884C3;
+}
+body {
+     border: 0;
+     height: 1px;
+     font-size: 1.5em;
+     background: #333;
+     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+h1, h2 {
+    text-align: center; 
+    font-family: "Oswald", "Helvetica Neue";
+    color: #2884C3;
+}
+code, container {
+     color: #cc1414;
+     font-family: "Courier New", "Lucida Console";
+     background: #D3D3D3;
+}
+p#font-practice {
+    color: #008000;
+    font-family: "Arial", "Verdana";
+    
+}
 /*Write your CSS rules below!*/
-
